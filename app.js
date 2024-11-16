@@ -7,6 +7,7 @@ submitWeather.addEventListener("submit", (e) => {
   searchWeather(query);
 });
 
+//GET Method
 async function searchWeather(query) {
   try {
     const api = await fetch(query);
