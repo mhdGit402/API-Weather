@@ -6,6 +6,21 @@
     <title>API-Weather</title>
   </head>
   <body>
+    <div class="container">
+      <div class="search-weather">
+        <form action="#" id="search-weather">
+          <label for="city-weather">City</label>
+          <input type="text" name="city" id="city-weather" />
+          <input type="submit" id="submit-weather" />
+        </form>
+      </div>
+      <div class="show-weather">
+        <h2 id="resolvedAddress"></h2>
+        <h2 id="timeZone"></h2>
+        <h2 id="description"></h2>
+        <h2 id="temp"></h2>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
